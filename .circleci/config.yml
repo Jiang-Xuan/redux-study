@@ -36,4 +36,9 @@ jobs:
       # run tests!
       - run: yarn test
 
+      test:
+      override:
+      - yarn danger ci
+
+
 
